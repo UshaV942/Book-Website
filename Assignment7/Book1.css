@@ -1,0 +1,87 @@
+.navbar{
+    border-radius: 8px;
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+    background-color:rgb(51, 49, 49);
+}
+.form1{
+    padding-top: 20px;
+}
+
+.form1 input{
+    padding: 14px;
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+.buttontag{
+    padding-top: 20px;
+
+}
+.buttontag a{
+    padding: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buttontag button{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+
+.navbar2{
+display: flex;
+background-color: rgb(202, 14, 14);
+margin-top:10px;
+border: none;
+border-radius: 8px;
+position: sticky;
+}
+
+.links li{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    /*justify-content: space-between;*/
+    padding: 30px;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.booklist
+{     
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 20px;
+}
+.booklist img{
+   padding-top:10px ;
+   
+   
+    /*border: 1px solid rgb(79, 73, 73);*/
+    padding-right:20px;
+    
+}
+.booklist p{
+ font-size: 20px;
+ font-style: normal;
+ color:rgb(51, 48, 48);
+ text-align: center;
+ 
+}
+.booklist img:hover{
+    transform:translate(10px);
+}
+.i1 img{
+    padding-right: 10px;
+}

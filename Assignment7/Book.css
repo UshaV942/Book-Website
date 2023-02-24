@@ -1,0 +1,120 @@
+body{
+    width: 1500px;
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+    background-color:rgb(51, 49, 49);
+}
+.form1{
+    padding-top: 20px;
+}
+
+.form1 input{
+    padding: 14px;
+    height: 30px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+
+.buttontag{
+    padding-top: 20px;
+
+}
+.buttontag a{
+    padding: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buttontag button{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+.navbar2{
+display: flex;
+background-color: rgb(202, 14, 14);
+margin-top:10px;
+border: none;
+position: sticky;
+
+}
+.links li{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    /*justify-content: space-between;*/
+    padding: 30px;
+}
+.links a:hover{
+    
+    color: black;
+}
+
+.displayimg{
+   margin-top: 20px;
+}
+.displayimg img{
+    border-radius: 5px;
+}
+.hedding1 h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    color: rgb(177, 25, 25);
+    padding: 4px;
+    
+}
+.newarrivals h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    color: rgb(177, 25, 25);
+    padding-top: 2px;
+    
+    
+}
+
+.hedding1 marquee{
+ 
+    background-color: white;
+    padding: 2px;
+    height: 70px;
+    padding-top: 6px;
+}
+.sellerimg{
+    
+    display: flex;
+    padding-top: px;
+    justify-content: center;
+
+}
+.sellerimg img{
+    border: 1px solid rgb(49, 47, 47);
+ padding-left:20px ;
+ padding-right: 50x;
+   border-radius: 20px;
+   
+}
+.sellerimg img:hover{
+    transform:translateY(20px)
+
+}
+.sellerimg p{
+    text-align: center;
+    color: rgb(142, 29, 29);
+    font-size: 20px;
+    font-style: normal;
+
+}
+.sellerimg img{
+   
+    margin: 15px;
+    transition: -1s;
+}
